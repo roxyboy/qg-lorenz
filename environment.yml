@@ -1,0 +1,10 @@
+name: qg-lorenz
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - xarray
+  - numpy
+  - matplotlib
+  - dask
+  - jupyterlab
