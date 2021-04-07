@@ -2,7 +2,8 @@ QG Lorenz energy cycle
 ======================
 |DOI| |Binder|
 
-In this repository, we provide an example notebook calculating the kinetic energy and vorticity from the last time step of output.
+In this repository, we provide an example notebook for the paper **The seasonal variability of the ocean energy cycle from a quasi-geostrophic double gyre ensemble** submitted to *Fluids*.
+The notebook shows how to calculate the kinetic energy and vorticity from the last time step of the 101-member ensemble.
 
 Try the notebook on pangeo.binder.io_ : |Binder|
 
