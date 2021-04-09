@@ -1,0 +1,31 @@
+#!sh
+# input parameter files
+# each '=' sign must be surrounded by at least one whitespace on each side
+
+
+# domain size
+N  = 256
+nl = 3
+L0 = 80
+
+# physical parameters
+Rom  = 0.025
+Ekb  = 0.004
+tau0 = 0.0001
+Re4  = 1563.
+beta = 0.5
+Fr   = [0.00409959,0.01319355]
+aFrN = [0.1,0.]
+fFr_r = [62.2,62.2]
+dh   = [0.06,0.14,0.8]
+
+# passive tracers
+nptr  = 2
+ptr_r = [62.2,62.2]
+Pe    = [20.,20.]
+
+# timestepping
+DT    = 5.e-2
+tend  = 622.
+dtout = 1.
+CFL   = 0.5
